@@ -1,0 +1,30 @@
+{
+  "name": "ota_public_update",
+  "version": "1.0.0",
+  "description": "OTA Update",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muthu199123/OTA.git"
+  },
+  "author": "Muthukumar M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muthu199123/OTA/issues"
+  },
+  "homepage": "https://github.com/Muthu199123/OTA#readme",
+  "devDependencies": {
+    "electron": "^15.2.0",
+    "electron-builder": "^22.13.1",
+    "electron-updater": "^4.3.9"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
